@@ -21,6 +21,17 @@ This sample is built off of Code Igniter 3.1.3 and does contain some Angular.js
     /system                 : Base libraries from Code Igniter.  I have not modified any of these.
 
 /* ************************************ */
+/* Installation                         */
+/* ************************************ */
+- Copy in the files from github (https://github.com/brookebeardsley/bbeardsley_SnaFoo.git) (please let me know when you want me to take this one down)
+- Update the .htaccess file (if needed)
+- Install the database (see below)
+- Login!
+
+- public site is posted at http://bbeardsley-snafoo.000webhostapp.com/
+  (Note: this is a free hosting provider... and so they seem to be a bit slow)
+
+/* ************************************ */
 /* Required database setup              */
 /* ************************************ */
 
