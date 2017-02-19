@@ -1,0 +1,57 @@
+/* Cleaning up the ".btn" - I really don't like that underline */
+.btn{
+  text-decoration:none !important;
+}
+
+/* formatting a text input field */
+input.query_input{
+  margin-left:20%;
+  width:60%;
+  font-size:1.25em;
+}
+
+/* some grey text */
+.grey {
+  color:#AAA;
+}
+
+/* Shopping list: making the screen formatting less ugly */
+@media screen and (max-width: 600px){
+  .middle_50{
+    margin-left:0;
+    width:100%;
+  }
+}
+@media screen and (min-width: 601px) and (max-width:1000px){
+  .middle_50{
+    margin-left:10%;
+    width:80%;
+  }
+}
+@media screen and (min-width: 1001px){
+  .middle_50{
+    margin-left:25%;
+    width:50%;
+  }
+}
+
+/* positioning for the "red x" error messages */
+.red-x{
+  position:absolute;
+  top:0;
+  right:0;
+  color:#C00;
+  background:rgba(0,0,0,0);
+  transition:0.5s all ease-in-out;
+}
+.red-x:hover{
+  color:#F33;
+  background:rgba(0,0,0,0);
+}
+
+/* positioning for the "export button" */
+.float-right{
+  position:absolute;
+  top:0.5em;
+  right:0;
+}
